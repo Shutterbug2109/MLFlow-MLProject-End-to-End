@@ -8,7 +8,7 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)-15s %(message)s"
 )  # it willset the timestam and the error msg
 
-project_name = "MLFlow-MLProject-End-to-End"
+project_name = "MLFlowProject"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
