@@ -9,7 +9,8 @@ data_ingestion:
   unzip_dir: artifacts/data_ingestion
 
 
-
+# use to validate the data before transformation and training 
+# schema validation, data type validation, null value validation, etc
 data_validation:
   root_dir: artifacts/data_validation
   unzip_data_dir: artifacts/data_ingestion/winequality-red.csv
